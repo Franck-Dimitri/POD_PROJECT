@@ -1,0 +1,25 @@
+{
+  "name": "project_managnment_workflow_backend",
+  "version": "1.0.0",
+  "description": "This is the back-end portion of the project managnment worflow",
+  "keywords": [
+    "project",
+    "managnment",
+    "workflow"
+  ],
+  "homepage": "https://github.com/Franck-Dimitri/POD_PROJECT#readme",
+  "bugs": {
+    "url": "https://github.com/Franck-Dimitri/POD_PROJECT/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Franck-Dimitri/POD_PROJECT.git"
+  },
+  "license": "ISC",
+  "author": "Nkono Ndeme Miguel",
+  "type": "module",
+  "main": "server.ts",
+  "scripts": {
+    "test": "jest"
+  }
+}
