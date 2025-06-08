@@ -1,25 +1,23 @@
 {
-  "name": "project_managnment_workflow_backend",
+  "name": "project_managnment",
   "version": "1.0.0",
-  "description": "This is the back-end portion of the project managnment worflow",
-  "keywords": [
-    "project",
-    "managnment",
-    "workflow"
-  ],
-  "homepage": "https://github.com/Franck-Dimitri/POD_PROJECT#readme",
-  "bugs": {
-    "url": "https://github.com/Franck-Dimitri/POD_PROJECT/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Franck-Dimitri/POD_PROJECT.git"
-  },
-  "license": "ISC",
+  "description": "This project is going to hold the api for the project managnment project that my team got assigned",
+  "license": "MIT",
+  "github": "",
   "author": "Nkono Ndeme Miguel",
   "type": "module",
-  "main": "server.ts",
+  "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "nodemon index",
+    "serve": "node index"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg": "^8.16.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.10"
   }
 }
